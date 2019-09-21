@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Panayiotis Georgiou | Mu Yang&#39;s Website</title>
+    <link>https://Mu-Y.github.io/authors/panayiotis-georgiou/</link>
+      <atom:link href="https://Mu-Y.github.io/authors/panayiotis-georgiou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Panayiotis Georgiou</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Sep 2019 16:56:26 -0700</lastBuildDate>
+    <image>
+      <url>https://Mu-Y.github.io/img/icon-192.png</url>
+      <title>Panayiotis Georgiou</title>
+      <link>https://Mu-Y.github.io/authors/panayiotis-georgiou/</link>
+    </image>
+    
+    <item>
+      <title>Spoken Language Intent Detection using Confusion2Vec</title>
+      <link>https://Mu-Y.github.io/publication/slu_c2v/</link>
+      <pubDate>Fri, 20 Sep 2019 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/slu_c2v/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>paper | Mu Yang&#39;s Website</title>
+    <link>https://Mu-Y.github.io/tags/paper/</link>
+      <atom:link href="https://Mu-Y.github.io/tags/paper/index.xml" rel="self" type="application/rss+xml" />
+    <description>paper</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Sep 2019 17:06:47 -0700</lastBuildDate>
+    <image>
+      <url>https://Mu-Y.github.io/img/icon-192.png</url>
+      <title>paper</title>
+      <link>https://Mu-Y.github.io/tags/paper/</link>
+    </image>
+    
+    <item>
+      <title>Deep Structured Neural Network for Event Temporal Relation Extraction</title>
+      <link>https://Mu-Y.github.io/publication/event_temproal_relation/</link>
+      <pubDate>Fri, 20 Sep 2019 17:06:47 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/event_temproal_relation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spoken Language Intent Detection using Confusion2Vec</title>
+      <link>https://Mu-Y.github.io/publication/slu_c2v/</link>
+      <pubDate>Fri, 20 Sep 2019 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/slu_c2v/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
