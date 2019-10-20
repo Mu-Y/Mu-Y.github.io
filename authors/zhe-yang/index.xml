@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhe Yang | Mu Yang&#39;s Website</title>
+    <link>https://Mu-Y.github.io/authors/zhe-yang/</link>
+      <atom:link href="https://Mu-Y.github.io/authors/zhe-yang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhe Yang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 20 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://Mu-Y.github.io/img/icon-192.png</url>
+      <title>Zhe Yang</title>
+      <link>https://Mu-Y.github.io/authors/zhe-yang/</link>
+    </image>
+    
+    <item>
+      <title>Collection and Classification of Lyrics</title>
+      <link>https://Mu-Y.github.io/publication/lyrics_classification/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://Mu-Y.github.io/publication/lyrics_classification/</guid>
+      <description>
+
+&lt;h3 id=&#34;method&#34;&gt;Method&lt;/h3&gt;
+
+&lt;h4 id=&#34;lyrics-collection&#34;&gt;Lyrics Collection&lt;/h4&gt;
+
+&lt;p&gt;We start from a list of artists. We utilize the &lt;a href=&#34;https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html&#34; target=&#34;_blank&#34;&gt;iTunes Search API&lt;/a&gt; to request meta data for each artist, including song name, genre, album/collection name, release year, etc. Then a web crawler is applied to fetch lyrics on &lt;a href=&#34;https://genius.com/&#34; target=&#34;_blank&#34;&gt;Genius&lt;/a&gt;, using artist names and song names. Finally the collected lyrics are cleaned up.&lt;/p&gt;
+
+&lt;h4 id=&#34;classifiers&#34;&gt;Classifiers&lt;/h4&gt;
+
+&lt;p&gt;We applied the following classifiers to compare their performances:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;KNN, with TF-IDF as features&lt;/li&gt;
+&lt;li&gt;Naive Bayes, with TF-IDF as features&lt;/li&gt;
+&lt;li&gt;SVM, with TF-IDF as features&lt;/li&gt;
+&lt;li&gt;LSTM, with Glove word embedding as features&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For more details, take a look at our &lt;a href=&#34;https://github.com/Mu-Y/CSCI544_Prj/blob/master/final_report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Lyrics Collection:&lt;/strong&gt; We manage to obtain a lyrics-genre dataset, with 30649 lyrics from 8 genres.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Classifiers:&lt;/strong&gt; We train the classifiers on a balanced set - 390 lyrics for each genre, from which we hold out a balanced set as test set. Accuracy on the held-out test set is presented below.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Model&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Accuracy&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;KNN&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.426&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Naive Bayes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;0.597&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;SVM&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.588&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;LSTM&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.563&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Interestingly, the Baive Bayes Classifier works pretty well, outperforming all others. That said, I have to recognize, the LSTM model has a few hyperparameters(e.g. hidden layer dimension, learning rate, etc) to be tuned. But due to the time and computation resource limitation, these tunning is not adequantly performed. It&amp;rsquo;ll be interesting to see in the future that whether there will be more performance boost with a thorough parameter tuning.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -21,7 +21,9 @@
 
 &lt;h3 id=&#34;method&#34;&gt;Method&lt;/h3&gt;
 
-&lt;p&gt;We implemented the Timbre model mentioned in the framework of the &lt;a href=&#34;https://www.mdpi.com/2076-3417/7/12/1313&#34; target=&#34;_blank&#34;&gt;NPSS&lt;/a&gt; paper. The input acoustic features include log-Mel Spectral Frequency Coefficients(&lt;strong&gt;MFSCs&lt;/strong&gt;) and Band Aperiodicity(&lt;strong&gt;AP&lt;/strong&gt;) which are extracted by WORLD vocoder. The generation is &lt;strong&gt;conditioned on control inputs&lt;/strong&gt; including &lt;strong&gt;F0&lt;/strong&gt;(extracted by WORLD) and time-aligned &lt;strong&gt;phonemes&lt;/strong&gt;. During generation(inference), the model generates MFSCs and APs, which are used for audio re-synthesis along with the true F0 via WORLD vocoder.&lt;/p&gt;
+&lt;p&gt;We implemented the Timbre model mentioned in the framework of the &lt;a href=&#34;https://www.mdpi.com/2076-3417/7/12/1313&#34; target=&#34;_blank&#34;&gt;NPSS&lt;/a&gt; paper.&lt;/p&gt;
+
+&lt;p&gt;Unlike the vanilla sample-to-sample WaveNet, the proposed model makes frame-to-frame predictions on 60-dimensional log-Mel Spectral Frequency Coefficients(&lt;strong&gt;MFSCs&lt;/strong&gt;)and 4-dimensional Band Aperiodicity(&lt;strong&gt;AP&lt;/strong&gt;) Coefficients, using F0(coarse coded), phoneme identity(one-hot coded) and normalized phoneme position(coarse coded) as local control inputs and singer identity as global control inputs. Then we feed generated MFSCs and APs, as well as true F0 into WORLD vocoder to synthesize audio. The features, i.e. MFSCs, APs and F0 are also extracted via WORLD.&lt;/p&gt;
 
 &lt;p&gt;For more details, take a look at our &lt;a href=&#34;https://github.com/Mu-Y/SynthSing/blob/master/Final_report.pdf&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt; and the original &lt;a href=&#34;https://www.mdpi.com/2076-3417/7/12/1313&#34; target=&#34;_blank&#34;&gt;NPSS paper&lt;/a&gt;.&lt;/p&gt;
 

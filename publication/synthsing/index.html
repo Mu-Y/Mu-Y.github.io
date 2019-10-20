@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Final project for USC course EE599: Deep Learning Lab for Speech Processing - a WaveNet-based singing voice synthesizer. This is a partial implement of the paper [A Neural Parametric Singing Synthesizer Modeling Timbre and Expression from Natural Songs](https://www.mdpi.com/2076-3417/7/12/1313).">
+  <meta name="description" content="Final project for USC course EE599: Deep Learning Lab for Speech Processing - a WaveNet-based singing voice synthesizer. This is a partial implementation of the paper [A Neural Parametric Singing Synthesizer Modeling Timbre and Expression from Natural Songs](https://www.mdpi.com/2076-3417/7/12/1313).">
 
   
   <link rel="alternate" hreflang="en-us" href="https://Mu-Y.github.io/publication/synthsing/">
@@ -111,7 +111,7 @@
   <meta property="og:site_name" content="Mu Yang&#39;s Website">
   <meta property="og:url" content="https://Mu-Y.github.io/publication/synthsing/">
   <meta property="og:title" content="Synthing: A WaveNet-based Singing Voice Synthisizer | Mu Yang&#39;s Website">
-  <meta property="og:description" content="Final project for USC course EE599: Deep Learning Lab for Speech Processing - a WaveNet-based singing voice synthesizer. This is a partial implement of the paper [A Neural Parametric Singing Synthesizer Modeling Timbre and Expression from Natural Songs](https://www.mdpi.com/2076-3417/7/12/1313)."><meta property="og:image" content="https://Mu-Y.github.io/publication/synthsing/featured.png">
+  <meta property="og:description" content="Final project for USC course EE599: Deep Learning Lab for Speech Processing - a WaveNet-based singing voice synthesizer. This is a partial implementation of the paper [A Neural Parametric Singing Synthesizer Modeling Timbre and Expression from Natural Songs](https://www.mdpi.com/2076-3417/7/12/1313)."><meta property="og:image" content="https://Mu-Y.github.io/publication/synthsing/featured.png">
   <meta property="twitter:image" content="https://Mu-Y.github.io/publication/synthsing/featured.png"><meta property="og:locale" content="en-us">
   
     
@@ -169,7 +169,7 @@
       "url": "https://Mu-Y.github.io/img/icon-512.png"
     }
   },
-  "description": "Final project for USC course EE599: Deep Learning Lab for Speech Processing - a WaveNet-based singing voice synthesizer. This is a partial implement of the paper [A Neural Parametric Singing Synthesizer Modeling Timbre and Expression from Natural Songs](https://www.mdpi.com/2076-3417/7/12/1313)."
+  "description": "Final project for USC course EE599: Deep Learning Lab for Speech Processing - a WaveNet-based singing voice synthesizer. This is a partial implementation of the paper [A Neural Parametric Singing Synthesizer Modeling Timbre and Expression from Natural Songs](https://www.mdpi.com/2076-3417/7/12/1313)."
 }
 </script>
 
@@ -357,6 +357,28 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
         </li>
 
         
@@ -665,6 +687,18 @@
     
 
     
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>USC course EE599: Deep Learning Lab for Speech Processing</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
     <div class="space-below"></div>
 
@@ -672,7 +706,9 @@
 
 <h3 id="method">Method</h3>
 
-<p>We implemented the Timbre model mentioned in the framework of the <a href="https://www.mdpi.com/2076-3417/7/12/1313" target="_blank">NPSS</a> paper. The input acoustic features include log-Mel Spectral Frequency Coefficients(<strong>MFSCs</strong>) and Band Aperiodicity(<strong>AP</strong>) which are extracted by WORLD vocoder. The generation is <strong>conditioned on control inputs</strong> including <strong>F0</strong>(extracted by WORLD) and time-aligned <strong>phonemes</strong>. During generation(inference), the model generates MFSCs and APs, which are used for audio re-synthesis along with the true F0 via WORLD vocoder.</p>
+<p>We implemented the Timbre model mentioned in the framework of the <a href="https://www.mdpi.com/2076-3417/7/12/1313" target="_blank">NPSS</a> paper.</p>
+
+<p>Unlike the vanilla sample-to-sample WaveNet, the proposed model makes frame-to-frame predictions on 60-dimensional log-Mel Spectral Frequency Coefficients(<strong>MFSCs</strong>)and 4-dimensional Band Aperiodicity(<strong>AP</strong>) Coefficients, using F0(coarse coded), phoneme identity(one-hot coded) and normalized phoneme position(coarse coded) as local control inputs and singer identity as global control inputs. Then we feed generated MFSCs and APs, as well as true F0 into WORLD vocoder to synthesize audio. The features, i.e. MFSCs, APs and F0 are also extracted via WORLD.</p>
 
 <p>For more details, take a look at our <a href="https://github.com/Mu-Y/SynthSing/blob/master/Final_report.pdf" target="_blank">report</a> and the original <a href="https://www.mdpi.com/2076-3417/7/12/1313" target="_blank">NPSS paper</a>.</p>
 
