@@ -152,7 +152,7 @@
 
 &lt;p&gt;Mel-frequency Spectrum features are used to train the Auto-encoder Network.&lt;/p&gt;
 
-&lt;p&gt;For more details, take a look at the &lt;a href=&#34;https://github.com/Mu-Y/SynthSing/blob/master/Final_report.pdf&#34; target=&#34;_blank&#34;&gt;GitHub page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For more details, take a look at the &lt;a href=&#34;https://github.com/Mu-Y/AutoEncoder-Denoiser&#34; target=&#34;_blank&#34;&gt;GitHub page&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;dataset&#34;&gt;Dataset&lt;/h3&gt;
 
@@ -217,6 +217,27 @@
 &lt;li&gt;Conv with &lt;strong&gt;Equalized&lt;/strong&gt; Room Impulse Response: &lt;a href=&#34;https://soundcloud.com/mu-yang-974011976/edm-short-air-office-eq?in=mu-yang-974011976/sets/roomir-equalizer&#34; target=&#34;_blank&#34;&gt;audio&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Faster-RCNN for Pedestrian Detection in Videos</title>
+      <link>https://Mu-Y.github.io/publication/faster_rcnn/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://Mu-Y.github.io/publication/faster_rcnn/</guid>
+      <description>
+
+&lt;h3 id=&#34;method&#34;&gt;Method&lt;/h3&gt;
+
+&lt;p&gt;Re-train &lt;a href=&#34;https://arxiv.org/pdf/1506.01497.pdf&#34; target=&#34;_blank&#34;&gt;Faster-RCNN&lt;/a&gt; on VOC 2007 and VOC 2012, and also Caltech pedestrian dataset to perform pedestrian detection.&lt;/p&gt;
+
+&lt;p&gt;Apply the model on videos to generate pedestrian bounding-boxes frame-by-frame, with some bounding boxes smoothing techniques.&lt;/p&gt;
+
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+
+&lt;p&gt;When fed with a video where pedestrians appear during specific frames, the network will process the video and output a new video with pedestrians marked by the bouding boxes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./Picture3.png&#34; alt=&#34;picture demo&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
