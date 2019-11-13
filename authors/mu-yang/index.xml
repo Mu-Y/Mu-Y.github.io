@@ -137,7 +137,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Interestingly, the Baive Bayes Classifier works pretty well, outperforming all others. That said, I have to recognize, the LSTM model has a few hyperparameters(e.g. hidden layer dimension, learning rate, etc) to be tuned. But due to the time and computation resource limitation, these tunning is not adequantly performed. It&amp;rsquo;ll be interesting to see in the future that whether there will be more performance boost with a thorough parameter tuning.&lt;/p&gt;
+&lt;p&gt;Interestingly, the Baive Bayes Classifier works pretty well, outperforming all others. That said, I have to recognize, the LSTM model has a few hyperparameters(e.g. hidden layer dimension, learning rate, etc) to be tuned. But due to the time and computation resource limitation, these tuning are not adequantly performed. It&amp;rsquo;ll be interesting to see in the future that whether there will be more performance boost with a thorough parameter tuning.&lt;/p&gt;
 </description>
     </item>
     
@@ -174,7 +174,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://soundcloud.com/mu-yang-974011976/s_test?in=mu-yang-974011976/sets/auto-encoder-audio-denoiser&#34; target=&#34;_blank&#34;&gt;Original&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[Noise-mixed(failed due to copyright issue)]&lt;/li&gt;
+&lt;li&gt;[Noise-mixed(unavailable due to copyright issue)]&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://soundcloud.com/mu-yang-974011976/d_test?in=mu-yang-974011976/sets/auto-encoder-audio-denoiser&#34; target=&#34;_blank&#34;&gt;De-noised&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -182,7 +182,7 @@
     </item>
     
     <item>
-      <title>Parallel Second-order Filter-based Equalizer for Digital Room Correction</title>
+      <title>Digital Room Correction using Parallel Second-order Filter-based Equalizer</title>
       <link>https://Mu-Y.github.io/publication/roomir-equalizer/</link>
       <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
       <guid>https://Mu-Y.github.io/publication/roomir-equalizer/</guid>
@@ -235,7 +235,7 @@
 
 &lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
 
-&lt;p&gt;When fed with a video where pedestrians appear during specific frames, the network will process the video and output a new video with pedestrians marked by the bouding boxes.&lt;/p&gt;
+&lt;p&gt;When fed with a video where pedestrians appear during specific frames, the network will process and output a new video with pedestrians marked by the bouding boxes.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;./Picture3.png&#34; alt=&#34;picture demo&#34; /&gt;&lt;/p&gt;
 </description>
