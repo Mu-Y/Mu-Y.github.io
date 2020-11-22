@@ -1,6 +1,18 @@
-@article{han2019deep,
-  title={Deep Structured Neural Network for Event Temporal Relation Extraction},
-  author={Han, Rujun and Hsu, I and Yang, Mu and Galstyan, Aram and Weischedel, Ralph and Peng, Nanyun and others},
-  journal={arXiv preprint arXiv:1909.10094},
-  year={2019}
+@inproceedings{han-etal-2019-deep,
+    title = "Deep Structured Neural Network for Event Temporal Relation Extraction",
+    author = "Han, Rujun  and
+      Hsu, I-Hung  and
+      Yang, Mu  and
+      Galstyan, Aram  and
+      Weischedel, Ralph  and
+      Peng, Nanyun",
+    booktitle = "Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/K19-1062",
+    doi = "10.18653/v1/K19-1062",
+    pages = "666--106",
+    abstract = "We propose a novel deep structured learning framework for event temporal relation extraction. The model consists of 1) a recurrent neural network (RNN) to learn scoring functions for pair-wise relations, and 2) a structured support vector machine (SSVM) to make joint predictions. The neural network automatically learns representations that account for long-term contexts to provide robust features for the structured model, while the SSVM incorporates domain knowledge such as transitive closure of temporal relations as constraints to make better globally consistent decisions. By jointly training the two components, our model combines the benefits of both data-driven learning and knowledge exploitation. Experimental results on three high-quality event temporal relation datasets (TCR, MATRES, and TB-Dense) demonstrate that incorporated with pre-trained contextualized embeddings, the proposed model achieves significantly better performances than the state-of-the-art methods on all three datasets. We also provide thorough ablation studies to investigate our model.",
 }

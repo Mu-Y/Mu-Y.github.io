@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Biomedical event extraction is critical in understanding biomolecular interactions described in scientific corpus. One of the main challenges is to identify nested structured events that are associated with non-indicative trigger words. We propose to incorporate domain knowledge from Unified Medical Language System (UMLS) to a pre-trained language model via a hierarchical graph representation encoded by a proposed Graph Edgeconditioned Attention Networks (GEANet). To better recognize the trigger words, each sentence is first grounded to a sentence graph based on a jointly modeled hierarchical knowledge graph from UMLS. The grounded graphs are then propagated by GEANet, a novel graph neural networks for enhanced capabilities in inferring complex events. On BioNLP 2011 GENIA Event Extraction task, our approach achieved 1.41% F1 and 3.19% F1 improvements on all events and complex events, respectively. Ablation studies confirm the importance of GEANet and hierarchical KG.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://Mu-Y.github.io/tags/paper/">
+  <link rel="alternate" hreflang="en-us" href="https://Mu-Y.github.io/publication/biomed_event_extraction_gnn/">
 
   
 
@@ -92,14 +92,12 @@
   
 
   
-  <link rel="alternate" href="/tags/paper/index.xml" type="application/rss+xml" title="Mu Yang&#39;s Website">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://Mu-Y.github.io/tags/paper/">
+  <link rel="canonical" href="https://Mu-Y.github.io/publication/biomed_event_extraction_gnn/">
 
   
   
@@ -112,18 +110,67 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Mu Yang&#39;s Website">
-  <meta property="og:url" content="https://Mu-Y.github.io/tags/paper/">
-  <meta property="og:title" content="paper | Mu Yang&#39;s Website">
-  <meta property="og:description" content=""><meta property="og:image" content="https://Mu-Y.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://Mu-Y.github.io/publication/biomed_event_extraction_gnn/">
+  <meta property="og:title" content="Biomedical Event Extraction with Hierarchical Knowledge Graphs | Mu Yang&#39;s Website">
+  <meta property="og:description" content="Biomedical event extraction is critical in understanding biomolecular interactions described in scientific corpus. One of the main challenges is to identify nested structured events that are associated with non-indicative trigger words. We propose to incorporate domain knowledge from Unified Medical Language System (UMLS) to a pre-trained language model via a hierarchical graph representation encoded by a proposed Graph Edgeconditioned Attention Networks (GEANet). To better recognize the trigger words, each sentence is first grounded to a sentence graph based on a jointly modeled hierarchical knowledge graph from UMLS. The grounded graphs are then propagated by GEANet, a novel graph neural networks for enhanced capabilities in inferring complex events. On BioNLP 2011 GENIA Event Extraction task, our approach achieved 1.41% F1 and 3.19% F1 improvements on all events and complex events, respectively. Ablation studies confirm the importance of GEANet and hierarchical KG."><meta property="og:image" content="https://Mu-Y.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://Mu-Y.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-11-20T17:06:47-07:00">
+    
+      <meta property="article:published_time" content="2020-11-20T17:06:47-07:00">
+    
+    <meta property="article:modified_time" content="2020-11-20T17:06:47-07:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://Mu-Y.github.io/publication/biomed_event_extraction_gnn/"
+  },
+  "headline": "Biomedical Event Extraction with Hierarchical Knowledge Graphs",
+  
+  "datePublished": "2020-11-20T17:06:47-07:00",
+  "dateModified": "2020-11-20T17:06:47-07:00",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mu Yang's Website",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://Mu-Y.github.io/img/icon-512.png"
+    }
+  },
+  "description": "Biomedical event extraction is critical in understanding biomolecular interactions described in scientific corpus. One of the main challenges is to identify nested structured events that are associated with non-indicative trigger words. We propose to incorporate domain knowledge from Unified Medical Language System (UMLS) to a pre-trained language model via a hierarchical graph representation encoded by a proposed Graph Edgeconditioned Attention Networks (GEANet). To better recognize the trigger words, each sentence is first grounded to a sentence graph based on a jointly modeled hierarchical knowledge graph from UMLS. The grounded graphs are then propagated by GEANet, a novel graph neural networks for enhanced capabilities in inferring complex events. On BioNLP 2011 GENIA Event Extraction task, our approach achieved 1.41% F1 and 3.19% F1 improvements on all events and complex events, respectively. Ablation studies confirm the importance of GEANet and hierarchical KG."
+}
+</script>
+
+  
 
   
 
@@ -131,10 +178,13 @@
   
 
 
+  
 
 
 
-  <title>paper | Mu Yang&#39;s Website</title>
+
+
+  <title>Biomedical Event Extraction with Hierarchical Knowledge Graphs | Mu Yang&#39;s Website</title>
 
 </head>
 
@@ -359,6 +409,183 @@
 </nav>
 
 
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Biomedical Event Extraction with Hierarchical Knowledge Graphs</h1>
+
+  
+
+  
+    
+
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span><a href="/authors/kung-hsiang-huang/">Kung-Hsiang Huang</a></span>, <span><a href="/authors/mu-yang/"><strong>Mu Yang</strong></a></span>, <span><a href="/authors/nanyun-peng/">Nanyun Peng</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    November 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://Mu-Y.github.io/publication/biomed_event_extraction_gnn/&amp;text=Biomedical%20Event%20Extraction%20with%20Hierarchical%20Knowledge%20Graphs" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://Mu-Y.github.io/publication/biomed_event_extraction_gnn/&amp;t=Biomedical%20Event%20Extraction%20with%20Hierarchical%20Knowledge%20Graphs" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Biomedical%20Event%20Extraction%20with%20Hierarchical%20Knowledge%20Graphs&amp;body=https://Mu-Y.github.io/publication/biomed_event_extraction_gnn/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://Mu-Y.github.io/publication/biomed_event_extraction_gnn/&amp;title=Biomedical%20Event%20Extraction%20with%20Hierarchical%20Knowledge%20Graphs" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Biomedical%20Event%20Extraction%20with%20Hierarchical%20Knowledge%20Graphs%20https://Mu-Y.github.io/publication/biomed_event_extraction_gnn/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://Mu-Y.github.io/publication/biomed_event_extraction_gnn/&amp;title=Biomedical%20Event%20Extraction%20with%20Hierarchical%20Knowledge%20Graphs" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
   
 
 
@@ -368,63 +595,155 @@
 
 
 
-
-
-
-
+  
+    
   
 
-  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.aclweb.org/anthology/2020.findings-emnlp.114.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/biomed_event_extraction_gnn/cite.bib">
+  Cite
+</button>
+
+
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>paper</h1>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/PlusLabNLP/GEANet-BioMed-Event-Extraction" target="_blank" rel="noopener">
+  Code
+</a>
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-  <div>
-    <h2><a href="/publication/biomed_event_extraction_gnn/">Biomedical Event Extraction with Hierarchical Knowledge Graphs</a></h2>
-    <div class="article-style">
-      
-      Biomedical event extraction is critical in understanding biomolecular interactions described in scientific corpus. One of the main challenges is to identify nested structured events that are associated with non-indicative trigger words. We propose to …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/event_temproal_relation/">Deep Structured Neural Network for Event Temporal Relation Extraction</a></h2>
-    <div class="article-style">
-      
-      We propose a novel deep structured learning framework for event temporal relation extraction. The model consists of 1) a recurrent neural network (RNN) to learn scoring functions for pair-wise relations, and 2) a structured support vector machine …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/slu_c2v/">Spoken Language Intent Detection using Confusion2Vec</a></h2>
-    <div class="article-style">
-      
-      Decoding speaker’s intent is a crucial part of spoken language understanding (SLU). The presence of noise or errors in the text transcriptions, in real life scenarios make the task more challenging. In this paper, we address the spoken language …
-      
-    </div>
-  </div>
-  
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Biomedical event extraction is critical in understanding biomolecular interactions described in scientific corpus. One of the main challenges is to identify nested structured events that are associated with non-indicative trigger words. We propose to incorporate domain knowledge from Unified Medical Language System (UMLS) to a pre-trained language model via a hierarchical graph representation encoded by a proposed Graph Edgeconditioned Attention Networks (GEANet). To better recognize the trigger words, each sentence is first grounded to a sentence graph based on a jointly modeled hierarchical knowledge graph from UMLS. The grounded graphs are then propagated by GEANet, a novel graph neural networks for enhanced capabilities in inferring complex events. On BioNLP 2011 GENIA Event Extraction task, our approach achieved 1.41% F1 and 3.19% F1 improvements on all events and complex events, respectively. Ablation studies confirm the importance of GEANet and hierarchical KG.</p>
+    
 
-  
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">EMNLP 2020 (Findings)</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/paper/">paper</a>
+  
 </div>
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/kung-hsiang-huang/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+
+    
+
+
+  </div>
+</div>
+
+
 
       
 

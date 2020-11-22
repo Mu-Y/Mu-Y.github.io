@@ -5,7 +5,7 @@
     <link>https://Mu-Y.github.io/authors/</link>
       <atom:link href="https://Mu-Y.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Sep 2019 17:06:47 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Nov 2020 17:06:47 -0700</lastBuildDate>
     <image>
       <url>https://Mu-Y.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,8 +15,24 @@
     <item>
       <title>**Mu Yang**</title>
       <link>https://Mu-Y.github.io/authors/mu-yang/</link>
-      <pubDate>Fri, 20 Sep 2019 17:06:47 -0700</pubDate>
+      <pubDate>Fri, 20 Nov 2020 17:06:47 -0700</pubDate>
       <guid>https://Mu-Y.github.io/authors/mu-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kung-Hsiang Huang</title>
+      <link>https://Mu-Y.github.io/authors/kung-hsiang-huang/</link>
+      <pubDate>Fri, 20 Nov 2020 17:06:47 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/authors/kung-hsiang-huang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nanyun Peng</title>
+      <link>https://Mu-Y.github.io/authors/nanyun-peng/</link>
+      <pubDate>Fri, 20 Nov 2020 17:06:47 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/authors/nanyun-peng/</guid>
       <description></description>
     </item>
     
@@ -33,14 +49,6 @@
       <link>https://Mu-Y.github.io/authors/i-hung-hsu/</link>
       <pubDate>Fri, 20 Sep 2019 17:06:47 -0700</pubDate>
       <guid>https://Mu-Y.github.io/authors/i-hung-hsu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nanyun Peng</title>
-      <link>https://Mu-Y.github.io/authors/nanyun-peng/</link>
-      <pubDate>Fri, 20 Sep 2019 17:06:47 -0700</pubDate>
-      <guid>https://Mu-Y.github.io/authors/nanyun-peng/</guid>
       <description></description>
     </item>
     
@@ -137,9 +145,11 @@
       <link>https://Mu-Y.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://Mu-Y.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;Hi, there! My name is Mu Yang. I&amp;rsquo;m an incoming Ph.D. student in Computer Science and Engineering (CSE) at Texas A&amp;amp;M University starting from 2020 Fall. I obtained my M.S. degree in Electrical Engineering at University of Southern California (USC). Currently I am working as a research assistant at &lt;a href=&#34;https://www.cs.jhu.edu/~npeng/group.html&#34; target=&#34;_blank&#34;&gt;Plus Lab&lt;/a&gt;  at USC &lt;a href=&#34;https://www.isi.edu/research_groups/nlg/home&#34; target=&#34;_blank&#34;&gt;Information Scienceses Institute&lt;/a&gt; (ISI), fortunate to be supervised by &lt;a href=&#34;https://www.cs.jhu.edu/~npeng/&#34; target=&#34;_blank&#34;&gt;Prof. Nanyun (Violet) Peng&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Hi, there! My name is Mu Yang. I&amp;rsquo;m an incoming Ph.D. student in Computer Science and Engineering (CSE) at Texas A&amp;amp;M University starting from 2020 Fall. My supervisor is Prof. &lt;a href=&#34;https://engineering.tamu.edu/cse/profiles/rgutierrez-osuna.html&#34; target=&#34;_blank&#34;&gt;Ricardo Gutierrez-Osuna&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;My research interests lie in Natural Language Understanding and Information Extraction, specifically Event Temporal Relation Extraction and Biomedical Event Extraction. Previously I also work on Spoken Language Understanding and Speech Synthesis, collaborating with &lt;a href=&#34;http://scuba.usc.edu/panos&#34; target=&#34;_blank&#34;&gt;Prof. Panayiotis Georgiou&lt;/a&gt; and folks from &lt;a href=&#34;http://scuba.usc.edu/&#34; target=&#34;_blank&#34;&gt;SCUBA Lab&lt;/a&gt; at USC.&lt;/p&gt;
+&lt;p&gt;I obtained my M.S. degree in Electrical Engineering at University of Southern California (USC). During my Master&amp;rsquo;s study, I worked with &lt;a href=&#34;http://scuba.usc.edu/panos&#34; target=&#34;_blank&#34;&gt;Prof. Panayiotis Georgiou&lt;/a&gt; and folks from &lt;a href=&#34;http://scuba.usc.edu/&#34; target=&#34;_blank&#34;&gt;SCUBA Lab&lt;/a&gt; on Spoken Language Understanding and Speech Synthesis problems. After that I spent one year working as a research assistant at &lt;a href=&#34;https://pluslabnlp.github.io/&#34; target=&#34;_blank&#34;&gt;Plus Lab&lt;/a&gt;  at USC &lt;a href=&#34;https://www.isi.edu/research_groups/nlg/home&#34; target=&#34;_blank&#34;&gt;Information Scienceses Institute&lt;/a&gt; (ISI), fortunate to be supervised by Prof. &lt;a href=&#34;http://vnpeng.net/&#34; target=&#34;_blank&#34;&gt;Nanyun (Violet) Peng&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My research interests lie in Natural/Spoken Language Processing. I will be working on Voice Conversion and Accent Conversion during my Ph.D. In the past, I also had much experience in Natural Language Processing, especially in Information Extraction projects (Event and Event Temporal Relation Extraction).&lt;/p&gt;
 </description>
     </item>
     
