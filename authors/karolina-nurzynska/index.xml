@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Karolina Nurzynska | Mu Yang&#39;s Website</title>
+    <link>https://Mu-Y.github.io/authors/karolina-nurzynska/</link>
+      <atom:link href="https://Mu-Y.github.io/authors/karolina-nurzynska/index.xml" rel="self" type="application/rss+xml" />
+    <description>Karolina Nurzynska</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 18 Dec 2020 17:06:47 -0700</lastBuildDate>
+    <image>
+      <url>https://Mu-Y.github.io/img/icon-192.png</url>
+      <title>Karolina Nurzynska</title>
+      <link>https://Mu-Y.github.io/authors/karolina-nurzynska/</link>
+    </image>
+    
+    <item>
+      <title>A CNN-based active learning framework to identify mycobacteria in digitized Ziehl-Neelsen stained human tissues</title>
+      <link>https://Mu-Y.github.io/publication/cnn_tb/</link>
+      <pubDate>Fri, 18 Dec 2020 17:06:47 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/cnn_tb/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
