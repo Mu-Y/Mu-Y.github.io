@@ -95,7 +95,10 @@ main table.samples td{
 <main>
 
 <h1>Lifelong Learning for Multilingual Text-To-Speech Synthesis Audio Samples</h1>
-<p>We form the following training language sequence: German-Dutch-Chinese-Japanese. The final model is taken for speech synthesis after the entire sequence finished. From the perspective of lifelong learning, our goal is to mitigate "catastrophic forgetting" on German, Dutch and Chinese, without sacrificing performance on Japanese.</p>
+<p>We form the following training language sequence: German-Dutch-Chinese-Japanese. The <b>final</b> model is taken for speech synthesis after the entire sequence finished. From the perspective of lifelong learning, our goal is to mitigate "catastrophic forgetting" on German, Dutch and Chinese, without sacrificing performance on Japanese.</p>
+
+<h2>Dataset:</h2>
+<p>We use <a href="https://github.com/Kyubyong/css10">CSS10</a> corpus [1].<p>
 <h2>Systems:</h2>
 <ul>
 <li><b>Reference</b>: the Ground Truth utterance by human.</li>
@@ -1053,5 +1056,8 @@ main table.samples td{
 </tbody>
 </table>
 
+<hr>
+<h1>References</h1>
+<p>[1] Kyubyong Park and Thomas Mulc, “CSS10: A Collection of Single Speaker Speech Datasets for 10 Languages,” in Proc. Interspeech 2019, 2019, pp. 1566–1570.</p>  
 </main>
 </body></html>
