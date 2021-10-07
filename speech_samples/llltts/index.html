@@ -1,1 +1,1057 @@
-hello world.
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Audio Samples</title></head>
+<style>
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.title {
+	background-color: rgb(0,80,0);
+	width: 100%;
+	text-align: center
+}
+
+.title td{
+	padding: 5px;
+}
+
+.title .logo{
+	width: 220px;
+}
+
+.title h1{
+	font-size: 18pt;
+	font-family: avant garde, verdana, helvetica, sans-serif;
+	color: white;
+	line-height: 1.15;
+}
+
+.title h2{
+	font-size: 12pt;
+	font-family: georgia, times new roman, serif;
+	font-style: italic;
+	color: white;
+	line-height: 1.15;
+}
+
+main{
+	font-family: serif;
+	font-size: 18px;
+	padding: 0 10px 0 10px;
+}
+
+main h1{
+	font-family: sans-serif;
+	font-size: 24px;
+}
+
+main table.samples{
+	text-align: center;
+}
+
+main table.samples th{
+	border-bottom: 2px solid #333;
+	width: 14%;
+	height: 60px;
+}
+
+main table.samples td{
+	border-right: 1px #333 solid;
+	border-bottom: 1px #666 solid;
+	/*width: 14%;*/
+	height: 60px;
+}
+
+.mtf { 
+	background-color: rgb(225, 225, 255);
+}
+
+.ftm{
+	background-color: rgb(255, 225, 225);
+}
+
+.source{
+	background-color: rgb(225, 255, 225);
+}
+</style>
+<body>
+<table class="title">
+<tbody>
+<tr>
+<td>
+<h1>TOWARDS LIFELONG LEARNING OF MULTILINGUAL TEXT-TO-SPEECH SYNTHESIS</h1>
+<h2>Mu Yang<sup>1</sup>, Shaojin Ding<sup>2</sup>, Tianlong Chen<sup>3</sup>, Tong Wang<sup>4</sup>, Zhangyang Wang<sup>3</sup></h2>
+<h2><sup>1</sup>University of Texas at Dallas, USA</h2>
+<h2><sup>2</sup>Texas A&M University, USA</h2>
+<h2><sup>3</sup>University of Texas at Austin, USA</h2>
+<h2><sup>4</sup>University of Science and Technology of China, China</h2>
+</td>
+</tbody>
+</table>
+<main>
+
+<h1>Lifelong Learning for Multilingual Text-To-Speech Synthesis Audio Samples</h1>
+<p>We form the following training language sequence: German-Dutch-Chinese-Japanese. The final model is taken for speech synthesis after the entire sequence finished. From the perspective of lifelong learning, our goal is to mitigate "catastrophic forgetting" on German, Dutch and Chinese, without sacrificing performance on Japanese.</p>
+<h2>Systems:</h2>
+<ul>
+<li><b>Reference</b>: the Ground Truth utterance by human.</li>
+<li><b>Joint</b>: four languages are jointly trained (upper bound).</li>
+<li><b>Fine-tune</b>: four languages are sequentially trained, without any lifelong learning techniques (lower bound).</li>
+<li><b>EWC</b>: a regularization-based lifelong learning baseline.</li>
+<li><b>GEM</b>: a replay-based lifelong learning baseline.</li>
+<li><b>Rdm. Samp.</b>: our proposed lifelong learning replay scheme, with Random Sampling strategy.</li>
+<li><b>Wtd. Samp.</b>: our proposed lifelong learning replay scheme, with Weighted Sampling strategy.</li>
+<li><b>Dual Samp.</b>: our proposed lifelong learning replay scheme, with the proposed Dual Sampler.</li>
+</ul>
+<hr>
+
+<h1>German</h1>
+<table width="100%" class="samples">
+<tbody>
+	<tr>
+		<th>Text</th>
+		<th>Reference</th>
+		<th>Joint</th>
+		<th>Fine-tune</th>
+		<th>EWC</th>
+		<th>GEM</th>
+		<th>Rdm. Samp.</th>
+		<th>Wtd. Samp.</th>
+		<th>Daul Samp.</th>
+	</tr>
+	<tr>
+		<td width="20%">Hanake war das reichste Mädchen am Biwasee, nicht bloß reich an der äußeren Schönheit, welche die Frauen ruhig und wunschlos macht,</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/achtgesichterambiwasse_0009.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_german_022965.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_german_022965.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_german_022965.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_german_022965.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_german_022965.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_german_022965.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_german_022965.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+
+	<tr>
+		<td width="20%">Sowie Leuwenhoek seinen Feind Swammerdamm erblickte, riß er sich los mit der höchsten Anstrengung seiner letzten Kräfte, sprang zurück</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/meisterfloh_1555.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_german_027138.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_german_027138.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_german_027138.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_german_027138.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_german_027138.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_german_027138.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_german_027138.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+
+	<tr>
+		<td width="20%">Er schämte sich, daß das Vorurteil des Vaters ihn so habe befangen können,</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/serapionsbruederauswahl_1472.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_german_030137.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_german_030137.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_german_030137.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_german_030137.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_german_030137.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_german_030137.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_german_030137.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+
+	<tr>
+		<td width="20%">Ich geb' ihm auf sein Werben meine Tochter zum Weibe; er zieht mit ihr nach Göthaborg,</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/serapionsbruederauswahl_1084.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_german_029749.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_german_029749.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_german_029749.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_german_029749.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_german_029749.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_german_029749.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_german_029749.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+
+	<tr>
+		<td width="20%">etragen, niemand anders sei als die Nichte des optischen Künstlers Leuwenhoek, namens Dörtje Elverdink,</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/meisterfloh_1776.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_german_027359.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_german_027359.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_german_027359.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_german_027359.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_german_027359.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_german_027359.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_german_027359.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+
+
+</tbody>
+</table>
+
+<hr>
+<h1>Dutch</h1>
+<table width="100%" class="samples">
+<tbody>
+	<tr>
+		<th>Text</th>
+		<th>Reference</th>
+		<th>Joint</th>
+		<th>Fine-tune</th>
+		<th>EWC</th>
+		<th>GEM</th>
+		<th>Rdm. Samp.</th>
+		<th>Wtd. Samp.</th>
+		<th>Daul Samp.</th>
+	</tr>
+	<tr>
+		<td width="20%">Gewoonlijk verkrijgt men die gegevens met vrij samengestelde instrumenten, wier opgaven op zijn minst genomen twijfelachtig zijn,</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/20000_mijlen_2772.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_dutch_005742.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_dutch_005742.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_dutch_005742.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_dutch_005742.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_dutch_005742.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_dutch_005742.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_dutch_005742.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+
+	<tr>
+		<td width="20%">Hij beschouwde hem nog als een onbegrepen vernuft, dat het bedrog der wereld moede,</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/20000_mijlen_3025.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_dutch_005995.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_dutch_005995.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_dutch_005995.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_dutch_005995.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_dutch_005995.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_dutch_005995.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_dutch_005995.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+
+	<tr>
+		<td width="20%">of het niet beter was bij den kapitein in zijn kamer te gaan, hem eens ferm onder de oogen te zien en hem met blik en gebaar te tarten!</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/20000_mijlen_6411.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_dutch_009381.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_dutch_009381.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_dutch_009381.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_dutch_009381.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_dutch_009381.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_dutch_009381.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_dutch_009381.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+
+	<tr>
+		<td width="20%">zooals gepantserde fregatten of ramschepen die hebben. Zoo zou dit onverklaarbaar verschijnsel zijn opgelost, of-er</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/20000_mijlen_0174.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_dutch_003144.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_dutch_003144.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_dutch_003144.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_dutch_003144.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_dutch_003144.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_dutch_003144.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_dutch_003144.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+
+	<tr>
+		<td width="20%">Wij volgden hem alle drie, en eenige oogenblikken daarna kwamen wij, wonderbaarlijk gered, bij de boot van den visscher.</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/20000_mijlen_3465.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_dutch_006435.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_dutch_006435.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_dutch_006435.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_dutch_006435.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_dutch_006435.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_dutch_006435.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_dutch_006435.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+
+	
+</tbody>
+</table>
+
+<hr>
+<h1>Chinese</h1>
+<table width="100%" class="samples">
+<tbody>
+	<tr>
+		<th>Text</th>
+		<th>Reference</th>
+		<th>Joint</th>
+		<th>Fine-tune</th>
+		<th>EWC</th>
+		<th>GEM</th>
+		<th>Rdm. Samp.</th>
+		<th>Wtd. Samp.</th>
+		<th>Daul Samp.</th>
+	</tr>
+	<tr>
+		<td width="20%">dàn bùdà hējǐu le， yě hěnshǎo yǒu gōngfū tánxiántiān。 tā bànshì， jiān jiàoshū， shízài qínkuài dé kěyǐ。</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/chao_hua_si_she_0977.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_chinese_002793.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_chinese_002793.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_chinese_002793.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_chinese_002793.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_chinese_002793.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_chinese_002793.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_chinese_002793.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+	<tr>
+		<td width="20%">fēi tè xìucái yīnwèi shàngchéng qù bàoguān， bèi bùhǎo de gémìngdǎng jiǎn le biànzǐ， érqiě yòu pòfèi le èrshí qiān de shǎngqián， suǒyǐ quánjiā yě hàotáo le。</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/call_to_arms_1317.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_chinese_001317.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_chinese_001317.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_chinese_001317.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_chinese_001317.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_chinese_001317.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_chinese_001317.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_chinese_001317.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+	<tr>
+		<td width="20%">zhèshí tā měngránjiān kànjiàn zhào dàyé xiàng tā bēn lái， érqiě shǒulǐ niē zháo yīzhī dà zhúgāng。</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/call_to_arms_1088.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_chinese_001088.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_chinese_001088.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_chinese_001088.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_chinese_001088.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_chinese_001088.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_chinese_001088.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_chinese_001088.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+	<tr>
+		<td width="20%">dáyìng zháo， sìmiàn kànshí， què jiàn yīgè měinv̌ de liǎnlù zài qiángtóu shàng， xiàng tā yīxiào， yǐnqù le。 tā hěn gāoxīng;</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/chao_hua_si_she_0562.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_chinese_002378.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_chinese_002378.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_chinese_002378.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_chinese_002378.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_chinese_002378.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_chinese_002378.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_chinese_002378.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+	<tr>
+		<td width="20%">dàn ān mén zhǐ kāi le yītiáo féng， bìng wú hēigǒu cóngzhōng chōngchū， wàng jìnqù zhǐyǒu yīgè lǎo nígū。</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/call_to_arms_1209.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_chinese_001209.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_chinese_001209.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_chinese_001209.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_chinese_001209.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_chinese_001209.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_chinese_001209.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_chinese_001209.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+</tbody>
+</table>
+
+<hr>
+<h1>Japanese</h1>
+<table width="100%" class="samples">
+<tbody>
+	<tr>
+		<th>Text</th>
+		<th>Reference</th>
+		<th>Joint</th>
+		<th>Fine-tune</th>
+		<th>EWC</th>
+		<th>GEM</th>
+		<th>Rdm. Samp.</th>
+		<th>Wtd. Samp.</th>
+		<th>Daul Samp.</th>
+	</tr>
+	<tr>
+		<td width="20%">ano hito wa ichi nin de okonat teru n desu ka muron ichi nin desu seki wa? seki san wa kocchi yo。 kocchi ni yoga aru n desu mono</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/meian_4924.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_japanese_041666.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_japanese_041666.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_japanese_041666.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_japanese_041666.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_japanese_041666.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_japanese_041666.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_japanese_041666.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+	<tr>
+		<td width="20%">sore ni aitsu ga kuru to yakamashikut te ike nai kara ne nen wa shita de mo、 seishitsu no chigau kono imo-to wa、</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/meian_1285.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_japanese_038027.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_japanese_038027.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_japanese_038027.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_japanese_038027.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_japanese_038027.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_japanese_038027.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_japanese_038027.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+	<tr>
+		<td width="20%">seki no tokoro ni iru ja ari mase n ka sorya fudan no hanashi yo。 watashi no iu no wa ima no koto yo。 ima doko ni irassharu ka tteyuu no yo。</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/meian_4871.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_japanese_041613.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_japanese_041613.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_japanese_041613.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_japanese_041613.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_japanese_041613.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_japanese_041613.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_japanese_041613.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+	<tr>
+		<td width="20%">jufun gurai ugoi te aruko u ka aruku mai ka to mayot ta。</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/meian_5430.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_japanese_042172.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_japanese_042172.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_japanese_042172.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_japanese_042172.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_japanese_042172.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_japanese_042172.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_japanese_042172.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+	<tr>
+		<td width="20%">mottomo kyokusetsu no o-i kakudo de、 arayuru ho-men ni hansha sa seru tegiwa wo itaru tokoro ni hakki shi te haba kara nai mono wa kanojo ni chigai nakat ta。</td width="20%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/meian_4639.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/joint_japanese_041381.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ft_japanese_041381.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/ewc_japanese_041381.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/gem_japanese_041381.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/RdmSamp_japanese_041381.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/WtdSamp_japanese_041381.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+		<td width="10%">
+			<audio controls="" style="width: 150px;">
+				<source src="https://llltts.s3.us-east-2.amazonaws.com/llltts_wavs/DualSamp_japanese_041381.wav" type="audio/wav">Your browser does not support the audio tag.</source>
+			</audio>
+		</td width="10%">
+	</tr>
+	
+</tbody>
+</table>
+
+</main>
+</body></html>
