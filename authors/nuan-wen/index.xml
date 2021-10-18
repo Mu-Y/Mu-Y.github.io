@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nuan Wen | Mu Yang&#39;s Website</title>
+    <link>https://Mu-Y.github.io/authors/nuan-wen/</link>
+      <atom:link href="https://Mu-Y.github.io/authors/nuan-wen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nuan Wen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 Jan 2021 17:06:47 -0700</lastBuildDate>
+    <image>
+      <url>https://Mu-Y.github.io/img/icon-192.png</url>
+      <title>Nuan Wen</title>
+      <link>https://Mu-Y.github.io/authors/nuan-wen/</link>
+    </image>
+    
+    <item>
+      <title>EventPlus: A Temporal Event Understanding Pipeline</title>
+      <link>https://Mu-Y.github.io/publication/eventplus/</link>
+      <pubDate>Wed, 13 Jan 2021 17:06:47 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/eventplus/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

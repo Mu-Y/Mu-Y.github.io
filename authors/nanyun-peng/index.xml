@@ -5,12 +5,20 @@
     <link>https://Mu-Y.github.io/authors/nanyun-peng/</link>
       <atom:link href="https://Mu-Y.github.io/authors/nanyun-peng/index.xml" rel="self" type="application/rss+xml" />
     <description>Nanyun Peng</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Nov 2020 17:06:47 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 Jan 2021 17:06:47 -0700</lastBuildDate>
     <image>
       <url>https://Mu-Y.github.io/img/icon-192.png</url>
       <title>Nanyun Peng</title>
       <link>https://Mu-Y.github.io/authors/nanyun-peng/</link>
     </image>
+    
+    <item>
+      <title>EventPlus: A Temporal Event Understanding Pipeline</title>
+      <link>https://Mu-Y.github.io/publication/eventplus/</link>
+      <pubDate>Wed, 13 Jan 2021 17:06:47 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/eventplus/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Biomedical Event Extraction with Hierarchical Knowledge Graphs</title>

@@ -5,7 +5,7 @@
     <link>https://Mu-Y.github.io/publication_types/</link>
       <atom:link href="https://Mu-Y.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 18 Dec 2020 17:06:47 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 09 Oct 2021 16:56:26 -0700</lastBuildDate>
     <image>
       <url>https://Mu-Y.github.io/img/icon-192.png</url>
       <title>Publication_types</title>
@@ -13,18 +13,26 @@
     </image>
     
     <item>
-      <title>2</title>
-      <link>https://Mu-Y.github.io/publication_types/2/</link>
-      <pubDate>Fri, 18 Dec 2020 17:06:47 -0700</pubDate>
-      <guid>https://Mu-Y.github.io/publication_types/2/</guid>
+      <title>3</title>
+      <link>https://Mu-Y.github.io/publication_types/3/</link>
+      <pubDate>Sat, 09 Oct 2021 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication_types/3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>1</title>
       <link>https://Mu-Y.github.io/publication_types/1/</link>
-      <pubDate>Fri, 20 Nov 2020 17:06:47 -0700</pubDate>
+      <pubDate>Wed, 13 Jan 2021 17:06:47 -0700</pubDate>
       <guid>https://Mu-Y.github.io/publication_types/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>https://Mu-Y.github.io/publication_types/2/</link>
+      <pubDate>Fri, 18 Dec 2020 17:06:47 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication_types/2/</guid>
       <description></description>
     </item>
     

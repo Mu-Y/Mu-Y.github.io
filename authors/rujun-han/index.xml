@@ -5,12 +5,20 @@
     <link>https://Mu-Y.github.io/authors/rujun-han/</link>
       <atom:link href="https://Mu-Y.github.io/authors/rujun-han/index.xml" rel="self" type="application/rss+xml" />
     <description>Rujun Han*</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Sep 2019 17:06:47 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 Jan 2021 17:06:47 -0700</lastBuildDate>
     <image>
       <url>https://Mu-Y.github.io/img/icon-192.png</url>
       <title>Rujun Han*</title>
       <link>https://Mu-Y.github.io/authors/rujun-han/</link>
     </image>
+    
+    <item>
+      <title>EventPlus: A Temporal Event Understanding Pipeline</title>
+      <link>https://Mu-Y.github.io/publication/eventplus/</link>
+      <pubDate>Wed, 13 Jan 2021 17:06:47 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/eventplus/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Deep Structured Neural Network for Event Temporal Relation Extraction</title>

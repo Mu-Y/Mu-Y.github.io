@@ -5,12 +5,28 @@
     <link>https://Mu-Y.github.io/tags/paper/</link>
       <atom:link href="https://Mu-Y.github.io/tags/paper/index.xml" rel="self" type="application/rss+xml" />
     <description>paper</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 18 Dec 2020 17:06:47 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 09 Oct 2021 16:56:26 -0700</lastBuildDate>
     <image>
       <url>https://Mu-Y.github.io/img/icon-192.png</url>
       <title>paper</title>
       <link>https://Mu-Y.github.io/tags/paper/</link>
     </image>
+    
+    <item>
+      <title>Towards Lifelong Learning of Multilingual Text-To-Speech Synthesis</title>
+      <link>https://Mu-Y.github.io/publication/lll_tts/</link>
+      <pubDate>Sat, 09 Oct 2021 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/lll_tts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EventPlus: A Temporal Event Understanding Pipeline</title>
+      <link>https://Mu-Y.github.io/publication/eventplus/</link>
+      <pubDate>Wed, 13 Jan 2021 17:06:47 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/eventplus/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A CNN-based active learning framework to identify mycobacteria in digitized Ziehl-Neelsen stained human tissues</title>
