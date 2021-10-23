@@ -684,7 +684,7 @@
 
 <h4 id="lyrics-collection">Lyrics Collection</h4>
 
-<p>We start from a list of artists. We utilize the <a href="https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html" target="_blank">iTunes Search API</a> to request meta data for each artist, including song name, genre, album/collection name, release year, etc. Then a web crawler is applied to fetch lyrics on <a href="https://genius.com/" target="_blank">Genius</a>, using artist names and song names. Finally the collected lyrics are cleaned up.</p>
+<p>We start from a list of artists. We utilize the <a href="https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html" target="_blank">iTunes Search API</a> to request meta data for each artist, including song name, genre, album/collection name, release year, etc. Then a web crawler is applied to fetch lyrics on <a href="https://genius.com/" target="_blank">Genius</a>, using artist names and song names. Finally the collected lyrics are cleaned up by some basic processing: removing too-short lyrics, deduplication, etc.</p>
 
 <h4 id="classifiers">Classifiers</h4>
 
