@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Madhav Erraguntla | Mu Yang&#39;s Website</title>
+    <link>https://Mu-Y.github.io/authors/madhav-erraguntla/</link>
+      <atom:link href="https://Mu-Y.github.io/authors/madhav-erraguntla/index.xml" rel="self" type="application/rss+xml" />
+    <description>Madhav Erraguntla</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 07 May 2022 16:56:26 -0700</lastBuildDate>
+    <image>
+      <url>https://Mu-Y.github.io/img/icon-192.png</url>
+      <title>Madhav Erraguntla</title>
+      <link>https://Mu-Y.github.io/authors/madhav-erraguntla/</link>
+    </image>
+    
+    <item>
+      <title>Joint hypoglycemia prediction and glucose forecasting via deep multi-task learning</title>
+      <link>https://Mu-Y.github.io/publication/hg_prediction/</link>
+      <pubDate>Sat, 07 May 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/hg_prediction/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

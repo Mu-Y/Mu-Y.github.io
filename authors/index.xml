@@ -5,7 +5,7 @@
     <link>https://Mu-Y.github.io/authors/</link>
       <atom:link href="https://Mu-Y.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 09 Oct 2021 16:56:26 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 17 May 2022 16:56:26 -0700</lastBuildDate>
     <image>
       <url>https://Mu-Y.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,15 +15,47 @@
     <item>
       <title>**Mu Yang**</title>
       <link>https://Mu-Y.github.io/authors/mu-yang/</link>
-      <pubDate>Sat, 09 Oct 2021 16:56:26 -0700</pubDate>
+      <pubDate>Tue, 17 May 2022 16:56:26 -0700</pubDate>
       <guid>https://Mu-Y.github.io/authors/mu-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>John H. L. Hansen</title>
+      <link>https://Mu-Y.github.io/authors/john-h.-l.-hansen/</link>
+      <pubDate>Tue, 17 May 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/authors/john-h.-l.-hansen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kevin Hirschi</title>
+      <link>https://Mu-Y.github.io/authors/kevin-hirschi/</link>
+      <pubDate>Tue, 17 May 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/authors/kevin-hirschi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Okim Kang</title>
+      <link>https://Mu-Y.github.io/authors/okim-kang/</link>
+      <pubDate>Tue, 17 May 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/authors/okim-kang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stephen D. Looney</title>
+      <link>https://Mu-Y.github.io/authors/stephen-d.-looney/</link>
+      <pubDate>Tue, 17 May 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/authors/stephen-d.-looney/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shaojin Ding</title>
       <link>https://Mu-Y.github.io/authors/shaojin-ding/</link>
-      <pubDate>Sat, 09 Oct 2021 16:56:26 -0700</pubDate>
+      <pubDate>Thu, 12 May 2022 16:56:26 -0700</pubDate>
       <guid>https://Mu-Y.github.io/authors/shaojin-ding/</guid>
       <description></description>
     </item>
@@ -31,7 +63,7 @@
     <item>
       <title>Tianlong Chen</title>
       <link>https://Mu-Y.github.io/authors/tianlong-chen/</link>
-      <pubDate>Sat, 09 Oct 2021 16:56:26 -0700</pubDate>
+      <pubDate>Thu, 12 May 2022 16:56:26 -0700</pubDate>
       <guid>https://Mu-Y.github.io/authors/tianlong-chen/</guid>
       <description></description>
     </item>
@@ -39,7 +71,7 @@
     <item>
       <title>Tong Wang</title>
       <link>https://Mu-Y.github.io/authors/tong-wang/</link>
-      <pubDate>Sat, 09 Oct 2021 16:56:26 -0700</pubDate>
+      <pubDate>Thu, 12 May 2022 16:56:26 -0700</pubDate>
       <guid>https://Mu-Y.github.io/authors/tong-wang/</guid>
       <description></description>
     </item>
@@ -47,8 +79,40 @@
     <item>
       <title>Zhangyang Wang</title>
       <link>https://Mu-Y.github.io/authors/zhangyang-wang/</link>
-      <pubDate>Sat, 09 Oct 2021 16:56:26 -0700</pubDate>
+      <pubDate>Thu, 12 May 2022 16:56:26 -0700</pubDate>
       <guid>https://Mu-Y.github.io/authors/zhangyang-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Darpit Dave</title>
+      <link>https://Mu-Y.github.io/authors/darpit-dave/</link>
+      <pubDate>Sat, 07 May 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/authors/darpit-dave/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gerard L. Cote</title>
+      <link>https://Mu-Y.github.io/authors/gerard-l.-cote/</link>
+      <pubDate>Sat, 07 May 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/authors/gerard-l.-cote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Madhav Erraguntla</title>
+      <link>https://Mu-Y.github.io/authors/madhav-erraguntla/</link>
+      <pubDate>Sat, 07 May 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/authors/madhav-erraguntla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ricardo Gutierrez-Osuna</title>
+      <link>https://Mu-Y.github.io/authors/ricardo-gutierrez-osuna/</link>
+      <pubDate>Sat, 07 May 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/authors/ricardo-gutierrez-osuna/</guid>
       <description></description>
     </item>
     
@@ -165,10 +229,10 @@
     </item>
     
     <item>
-      <title>Prashanth Gurunath Shivakumar*</title>
-      <link>https://Mu-Y.github.io/authors/prashanth-gurunath-shivakumar/</link>
+      <title>Prashanth G. Shivakumar*</title>
+      <link>https://Mu-Y.github.io/authors/prashanth-g.-shivakumar/</link>
       <pubDate>Fri, 20 Sep 2019 16:56:26 -0700</pubDate>
-      <guid>https://Mu-Y.github.io/authors/prashanth-gurunath-shivakumar/</guid>
+      <guid>https://Mu-Y.github.io/authors/prashanth-g.-shivakumar/</guid>
       <description></description>
     </item>
     

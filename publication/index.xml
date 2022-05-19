@@ -5,7 +5,7 @@
     <link>https://Mu-Y.github.io/publication/</link>
       <atom:link href="https://Mu-Y.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 09 Oct 2021 16:56:26 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 17 May 2022 16:56:26 -0700</lastBuildDate>
     <image>
       <url>https://Mu-Y.github.io/img/icon-192.png</url>
       <title>Publications</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>Improving Mispronunciation Detection with Wav2vec2-based Momentum Pseudo-Labeling for Accentedness and Intelligibility Assessment</title>
+      <link>https://Mu-Y.github.io/publication/mdd/</link>
+      <pubDate>Tue, 17 May 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/mdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Towards Lifelong Learning of Multilingual Text-To-Speech Synthesis</title>
       <link>https://Mu-Y.github.io/publication/lll_tts/</link>
-      <pubDate>Sat, 09 Oct 2021 16:56:26 -0700</pubDate>
+      <pubDate>Thu, 12 May 2022 16:56:26 -0700</pubDate>
       <guid>https://Mu-Y.github.io/publication/lll_tts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint hypoglycemia prediction and glucose forecasting via deep multi-task learning</title>
+      <link>https://Mu-Y.github.io/publication/hg_prediction/</link>
+      <pubDate>Sat, 07 May 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/hg_prediction/</guid>
       <description></description>
     </item>
     

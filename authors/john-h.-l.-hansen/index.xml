@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John H. L. Hansen | Mu Yang&#39;s Website</title>
+    <link>https://Mu-Y.github.io/authors/john-h.-l.-hansen/</link>
+      <atom:link href="https://Mu-Y.github.io/authors/john-h.-l.-hansen/index.xml" rel="self" type="application/rss+xml" />
+    <description>John H. L. Hansen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 17 May 2022 16:56:26 -0700</lastBuildDate>
+    <image>
+      <url>https://Mu-Y.github.io/img/icon-192.png</url>
+      <title>John H. L. Hansen</title>
+      <link>https://Mu-Y.github.io/authors/john-h.-l.-hansen/</link>
+    </image>
+    
+    <item>
+      <title>Improving Mispronunciation Detection with Wav2vec2-based Momentum Pseudo-Labeling for Accentedness and Intelligibility Assessment</title>
+      <link>https://Mu-Y.github.io/publication/mdd/</link>
+      <pubDate>Tue, 17 May 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/mdd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
