@@ -5,12 +5,20 @@
     <link>https://Mu-Y.github.io/publication_types/1/</link>
       <atom:link href="https://Mu-Y.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 12 May 2022 16:56:26 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Sep 2022 16:56:26 -0700</lastBuildDate>
     <image>
       <url>https://Mu-Y.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://Mu-Y.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>Learning ASR pathways: A sparse multilingual ASR model</title>
+      <link>https://Mu-Y.github.io/publication/asr_pathways/</link>
+      <pubDate>Tue, 13 Sep 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/asr_pathways/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Towards Lifelong Learning of Multilingual Text-To-Speech Synthesis</title>

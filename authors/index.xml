@@ -5,7 +5,7 @@
     <link>https://Mu-Y.github.io/authors/</link>
       <atom:link href="https://Mu-Y.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 17 May 2022 16:56:26 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Sep 2022 16:56:26 -0700</lastBuildDate>
     <image>
       <url>https://Mu-Y.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,16 +15,56 @@
     <item>
       <title>**Mu Yang**</title>
       <link>https://Mu-Y.github.io/authors/mu-yang/</link>
-      <pubDate>Tue, 17 May 2022 16:56:26 -0700</pubDate>
+      <pubDate>Tue, 13 Sep 2022 16:56:26 -0700</pubDate>
       <guid>https://Mu-Y.github.io/authors/mu-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Andros Tjandra</title>
+      <link>https://Mu-Y.github.io/authors/andros-tjandra/</link>
+      <pubDate>Tue, 13 Sep 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/authors/andros-tjandra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chunxi Liu</title>
+      <link>https://Mu-Y.github.io/authors/chunxi-liu/</link>
+      <pubDate>Tue, 13 Sep 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/authors/chunxi-liu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>David Zhang</title>
+      <link>https://Mu-Y.github.io/authors/david-zhang/</link>
+      <pubDate>Tue, 13 Sep 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/authors/david-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Duc Le</title>
+      <link>https://Mu-Y.github.io/authors/duc-le/</link>
+      <pubDate>Tue, 13 Sep 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/authors/duc-le/</guid>
       <description></description>
     </item>
     
     <item>
       <title>John H. L. Hansen</title>
       <link>https://Mu-Y.github.io/authors/john-h.-l.-hansen/</link>
-      <pubDate>Tue, 17 May 2022 16:56:26 -0700</pubDate>
+      <pubDate>Tue, 13 Sep 2022 16:56:26 -0700</pubDate>
       <guid>https://Mu-Y.github.io/authors/john-h.-l.-hansen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ozlem Kalinli</title>
+      <link>https://Mu-Y.github.io/authors/ozlem-kalinli/</link>
+      <pubDate>Tue, 13 Sep 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/authors/ozlem-kalinli/</guid>
       <description></description>
     </item>
     

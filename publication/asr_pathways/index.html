@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Neural network pruning can be effectively applied to compress automatic speech recognition (ASR) models. However, in multilingual ASR, performing language-agnostic pruning may lead to severe performance degradation on some languages because language-agnostic pruning masks may not fit all languages and discard important language-specific parameters. In this work, we present ASR pathways, a sparse multilingual ASR model that activates language-specific sub-networks (pathways), such that the parameters for each language are learned explicitly. With the overlapping sub-networks, the shared parameters can also enable knowledge transfer for lower resource languages via joint multilingual training. We propose a novel algorithm to learn ASR pathways, and evaluate the proposed method on 4 languages with a streaming RNN-T model. Our proposed ASR pathways outperform both dense models (-5.0% average WER) and a language-agnostically pruned model (-21.4% average WER), and provide better performance on low-resource languages compared to the monolingual sparse models.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://Mu-Y.github.io/authors/">
+  <link rel="alternate" hreflang="en-us" href="https://Mu-Y.github.io/publication/asr_pathways/">
 
   
 
@@ -92,14 +92,12 @@
   
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="Mu Yang&#39;s Website">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://Mu-Y.github.io/authors/">
+  <link rel="canonical" href="https://Mu-Y.github.io/publication/asr_pathways/">
 
   
   
@@ -112,18 +110,67 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Mu Yang&#39;s Website">
-  <meta property="og:url" content="https://Mu-Y.github.io/authors/">
-  <meta property="og:title" content="Authors | Mu Yang&#39;s Website">
-  <meta property="og:description" content=""><meta property="og:image" content="https://Mu-Y.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://Mu-Y.github.io/publication/asr_pathways/">
+  <meta property="og:title" content="Learning ASR pathways: A sparse multilingual ASR model | Mu Yang&#39;s Website">
+  <meta property="og:description" content="Neural network pruning can be effectively applied to compress automatic speech recognition (ASR) models. However, in multilingual ASR, performing language-agnostic pruning may lead to severe performance degradation on some languages because language-agnostic pruning masks may not fit all languages and discard important language-specific parameters. In this work, we present ASR pathways, a sparse multilingual ASR model that activates language-specific sub-networks (pathways), such that the parameters for each language are learned explicitly. With the overlapping sub-networks, the shared parameters can also enable knowledge transfer for lower resource languages via joint multilingual training. We propose a novel algorithm to learn ASR pathways, and evaluate the proposed method on 4 languages with a streaming RNN-T model. Our proposed ASR pathways outperform both dense models (-5.0% average WER) and a language-agnostically pruned model (-21.4% average WER), and provide better performance on low-resource languages compared to the monolingual sparse models."><meta property="og:image" content="https://Mu-Y.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://Mu-Y.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2022-09-13T16:56:26-07:00">
+    
+      <meta property="article:published_time" content="2022-09-13T16:56:26-07:00">
+    
+    <meta property="article:modified_time" content="2022-09-13T16:56:26-07:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://Mu-Y.github.io/publication/asr_pathways/"
+  },
+  "headline": "Learning ASR pathways: A sparse multilingual ASR model",
+  
+  "datePublished": "2022-09-13T16:56:26-07:00",
+  "dateModified": "2022-09-13T16:56:26-07:00",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mu Yang's Website",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://Mu-Y.github.io/img/icon-512.png"
+    }
+  },
+  "description": "Neural network pruning can be effectively applied to compress automatic speech recognition (ASR) models. However, in multilingual ASR, performing language-agnostic pruning may lead to severe performance degradation on some languages because language-agnostic pruning masks may not fit all languages and discard important language-specific parameters. In this work, we present ASR pathways, a sparse multilingual ASR model that activates language-specific sub-networks (pathways), such that the parameters for each language are learned explicitly. With the overlapping sub-networks, the shared parameters can also enable knowledge transfer for lower resource languages via joint multilingual training. We propose a novel algorithm to learn ASR pathways, and evaluate the proposed method on 4 languages with a streaming RNN-T model. Our proposed ASR pathways outperform both dense models (-5.0% average WER) and a language-agnostically pruned model (-21.4% average WER), and provide better performance on low-resource languages compared to the monolingual sparse models."
+}
+</script>
+
+  
 
   
 
@@ -131,10 +178,13 @@
   
 
 
+  
 
 
 
-  <title>Authors | Mu Yang&#39;s Website</title>
+
+
+  <title>Learning ASR pathways: A sparse multilingual ASR model | Mu Yang&#39;s Website</title>
 
 </head>
 
@@ -359,6 +409,190 @@
 </nav>
 
 
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Learning ASR pathways: A sparse multilingual ASR model</h1>
+
+  
+
+  
+    
+
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span><a href="/authors/mu-yang/"><strong>Mu Yang</strong></a></span>, <span><a href="/authors/andros-tjandra/">Andros Tjandra</a></span>, <span><a href="/authors/chunxi-liu/">Chunxi Liu</a></span>, <span><a href="/authors/david-zhang/">David Zhang</a></span>, <span><a href="/authors/duc-le/">Duc Le</a></span>, <span><a href="/authors/john-h.-l.-hansen/">John H. L. Hansen</a></span>, <span><a href="/authors/ozlem-kalinli/">Ozlem Kalinli</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://Mu-Y.github.io/publication/asr_pathways/&amp;text=Learning%20ASR%20pathways:%20A%20sparse%20multilingual%20ASR%20model" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://Mu-Y.github.io/publication/asr_pathways/&amp;t=Learning%20ASR%20pathways:%20A%20sparse%20multilingual%20ASR%20model" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Learning%20ASR%20pathways:%20A%20sparse%20multilingual%20ASR%20model&amp;body=https://Mu-Y.github.io/publication/asr_pathways/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://Mu-Y.github.io/publication/asr_pathways/&amp;title=Learning%20ASR%20pathways:%20A%20sparse%20multilingual%20ASR%20model" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Learning%20ASR%20pathways:%20A%20sparse%20multilingual%20ASR%20model%20https://Mu-Y.github.io/publication/asr_pathways/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://Mu-Y.github.io/publication/asr_pathways/&amp;title=Learning%20ASR%20pathways:%20A%20sparse%20multilingual%20ASR%20model" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
   
 
 
@@ -372,103 +606,139 @@
 
 
 
-  
+
+
+
+
+
 
   
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>Authors</h1>
-
   
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2209.05735.pdf" target="_blank" rel="noopener">
+    
+    Preprint
+  </a>
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Neural network pruning can be effectively applied to compress automatic speech recognition (ASR) models. However, in multilingual ASR, performing language-agnostic pruning may lead to severe performance degradation on some languages because language-agnostic pruning masks may not fit all languages and discard important language-specific parameters. In this work, we present ASR pathways, a sparse multilingual ASR model that activates language-specific sub-networks (pathways), such that the parameters for each language are learned explicitly. With the overlapping sub-networks, the shared parameters can also enable knowledge transfer for lower resource languages via joint multilingual training. We propose a novel algorithm to learn ASR pathways, and evaluate the proposed method on 4 languages with a streaming RNN-T model. Our proposed ASR pathways outperform both dense models (-5.0% average WER) and a language-agnostically pruned model (-21.4% average WER), and provide better performance on low-resource languages compared to the monolingual sparse models.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Arxiv preprint, 2022</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+<div class="article-tags">
   
-
-  <ul>
-    
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/mu-yang/">**Mu Yang**</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/andros-tjandra/">Andros Tjandra</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/chunxi-liu/">Chunxi Liu</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/david-zhang/">David Zhang</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/duc-le/">Duc Le</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/john-h.-l.-hansen/">John H. L. Hansen</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/ozlem-kalinli/">Ozlem Kalinli</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/kevin-hirschi/">Kevin Hirschi</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/okim-kang/">Okim Kang</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/stephen-d.-looney/">Stephen D. Looney</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/shaojin-ding/">Shaojin Ding</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/tianlong-chen/">Tianlong Chen</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/tong-wang/">Tong Wang</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/zhangyang-wang/">Zhangyang Wang</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/darpit-dave/">Darpit Dave</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/gerard-l.-cote/">Gerard L. Cote</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/madhav-erraguntla/">Madhav Erraguntla</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/ricardo-gutierrez-osuna/">Ricardo Gutierrez-Osuna</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/jiao-sun/">Jiao Sun*</a></li>
-    
-      
-      <li><a href="https://Mu-Y.github.io/authors/kung-hsiang-huang/">Kung-Hsiang Huang</a></li>
-    
-  </ul>
-
+  <a class="badge badge-light" href="/tags/paper/">paper</a>
   
-<nav>
-  <ul class="pagination justify-content-center">
-    
-    
-    <li class="page-item"><a class="page-link" href="/authors/page/2/">&raquo;</a></li>
-    
-  </ul>
-</nav>
-
-
 </div>
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/mu-yang/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+
+    
+
+
+  </div>
+</div>
+
+
 
       
 

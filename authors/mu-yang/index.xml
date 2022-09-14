@@ -5,12 +5,20 @@
     <link>https://Mu-Y.github.io/authors/mu-yang/</link>
       <atom:link href="https://Mu-Y.github.io/authors/mu-yang/index.xml" rel="self" type="application/rss+xml" />
     <description>**Mu Yang**</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 17 May 2022 16:56:26 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Sep 2022 16:56:26 -0700</lastBuildDate>
     <image>
       <url>https://Mu-Y.github.io/img/icon-192.png</url>
       <title>**Mu Yang**</title>
       <link>https://Mu-Y.github.io/authors/mu-yang/</link>
     </image>
+    
+    <item>
+      <title>Learning ASR pathways: A sparse multilingual ASR model</title>
+      <link>https://Mu-Y.github.io/publication/asr_pathways/</link>
+      <pubDate>Tue, 13 Sep 2022 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/asr_pathways/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Improving Mispronunciation Detection with Wav2vec2-based Momentum Pseudo-Labeling for Accentedness and Intelligibility Assessment</title>
