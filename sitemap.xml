@@ -1,341 +1,188 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://Mu-Y.github.io/authors/mu-yang/</loc>
+    <loc>https://Mu-Y.github.io/talk/example-talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/event/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/publication-type/1/</loc>
     <lastmod>2022-09-13T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/publication_types/1/</loc>
-    <lastmod>2022-09-13T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/andros-tjandra/</loc>
-    <lastmod>2022-09-13T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/</loc>
-    <lastmod>2022-09-13T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/chunxi-liu/</loc>
-    <lastmod>2022-09-13T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/david-zhang/</loc>
-    <lastmod>2022-09-13T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/duc-le/</loc>
-    <lastmod>2022-09-13T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/john-h.-l.-hansen/</loc>
-    <lastmod>2022-09-13T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication/asr_pathways/</loc>
     <lastmod>2022-09-13T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/tag/paper/</loc>
     <lastmod>2022-09-13T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/ozlem-kalinli/</loc>
-    <lastmod>2022-09-13T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/tags/paper/</loc>
-    <lastmod>2022-09-13T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication_types/</loc>
     <lastmod>2022-09-13T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication/</loc>
     <lastmod>2022-09-13T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/tags/</loc>
     <lastmod>2022-09-13T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/publication_types/3/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/publication-type/3/</loc>
     <lastmod>2022-05-17T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication/mdd/</loc>
     <lastmod>2022-05-17T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/kevin-hirschi/</loc>
-    <lastmod>2022-05-17T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/okim-kang/</loc>
-    <lastmod>2022-05-17T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/stephen-d.-looney/</loc>
-    <lastmod>2022-05-17T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/shaojin-ding/</loc>
-    <lastmod>2022-05-12T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/tianlong-chen/</loc>
-    <lastmod>2022-05-12T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/tong-wang/</loc>
-    <lastmod>2022-05-12T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication/lll_tts/</loc>
     <lastmod>2022-05-12T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/zhangyang-wang/</loc>
-    <lastmod>2022-05-12T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/darpit-dave/</loc>
-    <lastmod>2022-05-07T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/gerard-l.-cote/</loc>
-    <lastmod>2022-05-07T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication/hg_prediction/</loc>
     <lastmod>2022-05-07T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/madhav-erraguntla/</loc>
-    <lastmod>2022-05-07T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/ricardo-gutierrez-osuna/</loc>
-    <lastmod>2022-05-07T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication/mpd_sedmdd/</loc>
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/tags/proj/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/tag/proj/</loc>
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication/eventplus/</loc>
     <lastmod>2021-01-13T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/jiao-sun/</loc>
-    <lastmod>2021-01-13T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/kung-hsiang-huang/</loc>
-    <lastmod>2021-01-13T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/mingyu-derek-ma/</loc>
-    <lastmod>2021-01-13T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/nanyun-peng/</loc>
-    <lastmod>2021-01-13T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/nuan-wen/</loc>
-    <lastmod>2021-01-13T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/rujun-han/</loc>
-    <lastmod>2021-01-13T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/shikhar-singh/</loc>
-    <lastmod>2021-01-13T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/publication_types/2/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/publication-type/2/</loc>
     <lastmod>2020-12-18T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication/cnn_tb/</loc>
     <lastmod>2020-12-18T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/ann-e.-walts/</loc>
-    <lastmod>2020-12-18T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/arkadiusz-gertych/</loc>
-    <lastmod>2020-12-18T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/karolina-nurzynska/</loc>
-    <lastmod>2020-12-18T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/tag/academic/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/categories/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/category/demo/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/post/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/post/getting-started/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/category/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication/biomed_event_extraction_gnn/</loc>
     <lastmod>2020-11-20T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/aram-galstyan/</loc>
-    <lastmod>2019-09-20T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication/event_temproal_relation/</loc>
     <lastmod>2019-09-20T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/i-hung-hsu/</loc>
-    <lastmod>2019-09-20T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/ralph-weischedel/</loc>
-    <lastmod>2019-09-20T17:06:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/panayiotis-georgiou/</loc>
-    <lastmod>2019-09-20T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/prashanth-g.-shivakumar/</loc>
-    <lastmod>2019-09-20T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication/slu_c2v/</loc>
     <lastmod>2019-09-20T16:56:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/james-bunning/</loc>
-    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/sharada-murali/</loc>
-    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/shiyu-mou/</loc>
-    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/post/writing-technical-content/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/publication/preprint/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/tag/source-themes/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/post/jupyter/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication/synthsing/</loc>
     <lastmod>2018-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/yixin-yang/</loc>
-    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/chang-su/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication/lyrics_classification/</loc>
     <lastmod>2018-11-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/tao-chen/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/zhe-yang/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication/roomir-equalizer/</loc>
     <lastmod>2018-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://Mu-Y.github.io/publication/faster_rcnn/</loc>
     <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/tag/deep-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/tag/demo/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/project/example/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/project/external-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/publication/journal-article/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/publication/conference-paper/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://Mu-Y.github.io/admin/</loc>
+    <changefreq>weekly</changefreq>
   </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/authors/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://Mu-Y.github.io/talk/</loc>
-  </url>
-  
 </urlset>
