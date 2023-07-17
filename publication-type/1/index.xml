@@ -5,7 +5,7 @@
     <link>https://Mu-Y.github.io/publication-type/1/</link>
       <atom:link href="https://Mu-Y.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 13 Sep 2022 16:56:26 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 13 Jun 2023 16:56:26 -0700</lastBuildDate>
     <image>
       <url>https://Mu-Y.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
-      <title>Learning ASR pathways: A sparse multilingual ASR model</title>
+      <title>What Can an Accent Identifier Learn? Probing Phonetic and Prosodic Information in a Wav2vec2-based Accent Identification Model</title>
+      <link>https://Mu-Y.github.io/publication/aid_probe/</link>
+      <pubDate>Tue, 13 Jun 2023 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/aid_probe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning ASR Pathways: A Sparse Multilingual ASR Model</title>
       <link>https://Mu-Y.github.io/publication/asr_pathways/</link>
-      <pubDate>Tue, 13 Sep 2022 16:56:26 -0700</pubDate>
+      <pubDate>Sun, 04 Jun 2023 16:56:26 -0700</pubDate>
       <guid>https://Mu-Y.github.io/publication/asr_pathways/</guid>
       <description></description>
     </item>
@@ -29,7 +37,7 @@
     </item>
     
     <item>
-      <title>Joint hypoglycemia prediction and glucose forecasting via deep multi-task learning</title>
+      <title>Joint Hypoglycemia Prediction and Glucose Forecasting via Deep Multi-task Learning</title>
       <link>https://Mu-Y.github.io/publication/hg_prediction/</link>
       <pubDate>Sat, 07 May 2022 16:56:26 -0700</pubDate>
       <guid>https://Mu-Y.github.io/publication/hg_prediction/</guid>

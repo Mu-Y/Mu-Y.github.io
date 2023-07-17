@@ -33,9 +33,17 @@
     </item>
     
     <item>
-      <title>Learning ASR pathways: A sparse multilingual ASR model</title>
+      <title>What Can an Accent Identifier Learn? Probing Phonetic and Prosodic Information in a Wav2vec2-based Accent Identification Model</title>
+      <link>https://Mu-Y.github.io/publication/aid_probe/</link>
+      <pubDate>Tue, 13 Jun 2023 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/aid_probe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning ASR Pathways: A Sparse Multilingual ASR Model</title>
       <link>https://Mu-Y.github.io/publication/asr_pathways/</link>
-      <pubDate>Tue, 13 Sep 2022 16:56:26 -0700</pubDate>
+      <pubDate>Sun, 04 Jun 2023 16:56:26 -0700</pubDate>
       <guid>https://Mu-Y.github.io/publication/asr_pathways/</guid>
       <description></description>
     </item>
@@ -57,7 +65,7 @@
     </item>
     
     <item>
-      <title>Joint hypoglycemia prediction and glucose forecasting via deep multi-task learning</title>
+      <title>Joint Hypoglycemia Prediction and Glucose Forecasting via Deep Multi-task Learning</title>
       <link>https://Mu-Y.github.io/publication/hg_prediction/</link>
       <pubDate>Sat, 07 May 2022 16:56:26 -0700</pubDate>
       <guid>https://Mu-Y.github.io/publication/hg_prediction/</guid>
@@ -119,7 +127,7 @@
     </item>
     
     <item>
-      <title>A CNN-based active learning framework to identify mycobacteria in digitized Ziehl-Neelsen stained human tissues</title>
+      <title>A CNN-based Active Learning Framework to Identify Mycobacteria in Digitized Ziehl-Neelsen Stained Human Tissues</title>
       <link>https://Mu-Y.github.io/publication/cnn_tb/</link>
       <pubDate>Fri, 18 Dec 2020 17:06:47 -0700</pubDate>
       <guid>https://Mu-Y.github.io/publication/cnn_tb/</guid>
@@ -334,7 +342,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-592318476&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-285769143&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -344,7 +352,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-592318476&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-285769143&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
