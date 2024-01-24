@@ -272,12 +272,12 @@
 
   
 
-<meta name="description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." />
+<meta name="description" content="End-to-end speech translation (ST) for conversation recordings involves several under-explored challenges such as speaker diarization (SD) without accurate word time stamps and handling of overlapping speech in a streaming fashion. In this work, we propose DiariST, the first streaming ST and SD solution. It is built upon a neural transducer-based streaming ST system and integrates token-level serialized output training and t-vector, which were originally developed for multi-talker speech recognition. Due to the absence of evaluation benchmarks in this area, we develop a new evaluation dataset, DiariST-AliMeeting, by translating the reference Chinese transcriptions of the AliMeeting corpus into English. We also propose new metrics, called speaker-agnostic BLEU and speaker-attributed BLEU, to measure the ST quality while taking SD accuracy into account. Our system achieves a strong ST and SD capability compared to offline systems based on Whisper, while performing streaming inference for overlapping speech. To facilitate the research in this new direction, we release the evaluation data, the offline baseline systems, and the evaluation code." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://Mu-Y.github.io/post/" />
-<link rel="canonical" href="https://Mu-Y.github.io/post/" />
+<link rel="alternate" hreflang="en-us" href="https://Mu-Y.github.io/publication/diarist/" />
+<link rel="canonical" href="https://Mu-Y.github.io/publication/diarist/" />
 
 
 
@@ -313,37 +313,84 @@
   <meta property="twitter:creator" content="@wowchemy" />
 <meta property="twitter:image" content="https://Mu-Y.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="Mu Yang&#39;s Website" />
-<meta property="og:url" content="https://Mu-Y.github.io/post/" />
-<meta property="og:title" content="Posts | Mu Yang&#39;s Website" />
-<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://Mu-Y.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://Mu-Y.github.io/publication/diarist/" />
+<meta property="og:title" content="DiariST: Streaming Speech Translation with Speaker Diarization | Mu Yang&#39;s Website" />
+<meta property="og:description" content="End-to-end speech translation (ST) for conversation recordings involves several under-explored challenges such as speaker diarization (SD) without accurate word time stamps and handling of overlapping speech in a streaming fashion. In this work, we propose DiariST, the first streaming ST and SD solution. It is built upon a neural transducer-based streaming ST system and integrates token-level serialized output training and t-vector, which were originally developed for multi-talker speech recognition. Due to the absence of evaluation benchmarks in this area, we develop a new evaluation dataset, DiariST-AliMeeting, by translating the reference Chinese transcriptions of the AliMeeting corpus into English. We also propose new metrics, called speaker-agnostic BLEU and speaker-attributed BLEU, to measure the ST quality while taking SD accuracy into account. Our system achieves a strong ST and SD capability compared to offline systems based on Whisper, while performing streaming inference for overlapping speech. To facilitate the research in this new direction, we release the evaluation data, the offline baseline systems, and the evaluation code." /><meta property="og:image" content="https://Mu-Y.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2020-12-13T00:00:00&#43;00:00" />
-  
-
-
-
-
-
-
-
-
-
-
+    <meta
+      property="article:published_time"
+      content="2024-01-04T16:56:26-07:00"
+    />
   
   
-  
-
-  
-  
-    <link rel="alternate" href="/post/index.xml" type="application/rss+xml" title="Mu Yang&#39;s Website" />
-  
-
+    <meta property="article:modified_time" content="2024-04-13T16:56:26-07:00">
   
 
 
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://Mu-Y.github.io/publication/diarist/"
+  },
+  "headline": "DiariST: Streaming Speech Translation with Speaker Diarization",
   
-  <title>Posts | Mu Yang&#39;s Website</title>
+  "datePublished": "2024-01-04T16:56:26-07:00",
+  "dateModified": "2024-04-13T16:56:26-07:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Mu Yang"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mu Yang's Website",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://Mu-Y.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "End-to-end speech translation (ST) for conversation recordings involves several under-explored challenges such as speaker diarization (SD) without accurate word time stamps and handling of overlapping speech in a streaming fashion. In this work, we propose DiariST, the first streaming ST and SD solution. It is built upon a neural transducer-based streaming ST system and integrates token-level serialized output training and t-vector, which were originally developed for multi-talker speech recognition. Due to the absence of evaluation benchmarks in this area, we develop a new evaluation dataset, DiariST-AliMeeting, by translating the reference Chinese transcriptions of the AliMeeting corpus into English. We also propose new metrics, called speaker-agnostic BLEU and speaker-attributed BLEU, to measure the ST quality while taking SD accuracy into account. Our system achieves a strong ST and SD capability compared to offline systems based on Whisper, while performing streaming inference for overlapping speech. To facilitate the research in this new direction, we release the evaluation data, the offline baseline systems, and the evaluation code."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>DiariST: Streaming Speech Translation with Speaker Diarization | Mu Yang&#39;s Website</title>
 
   
   
@@ -363,7 +410,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="6370009740e1eb2ee0b7974f10ecc91f" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="ccb153038fdd6a513c2eb8e28ae21ef6" >
 
   
   
@@ -746,6 +793,17 @@
 
 
 
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
 
 
 
@@ -755,63 +813,14 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1>DiariST: Streaming Speech Translation with Speaker Diarization</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Posts</h1>
-
-  
-
-  
-</div>
-
-
-
-<div class="universal-wrapper">
-
-  
-
-  
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/getting-started/" >Welcome to Wowchemy, the website builder for Hugo</a>
-    </div>
-
-    
-    <a href="/post/getting-started/"  class="summary-link">
-      <div class="article-style">
-        Welcome 👋 We know that first impressions are important, so we&rsquo;ve populated your new site with some initial content to help you get familiar with everything in no time.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
 
 
 <div class="article-metadata">
@@ -825,7 +834,13 @@
 
   <span class="author-highlighted">
       Mu Yang</span>, <span >
-      吳恩達</span>
+      Naoyuki Kanda</span>, <span >
+      Xiaofei Wang</span>, <span >
+      Junkun Chen</span>, <span >
+      Peidong Wang</span>, <span >
+      Jian Xue</span>, <span >
+      Jinyu Li</span>, <span >
+      Takuya Yoshioka</span>
   </div>
   
   
@@ -836,18 +851,13 @@
     
       
     
-    Dec 13, 2020
+    April, 2024
   </span>
   
 
   
 
   
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    3 min read
-  </span>
-  
 
   
   
@@ -855,236 +865,418 @@
   
 
   
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/demo/">Demo</a>, <a href="/category/%E6%95%99%E7%A8%8B/">教程</a></span>
   
 
 </div>
 
-      
-    </div>
-
     
 
-  </div>
-  <div class="ml-3">
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
     
+  
+  
+  
+  
+  
     
-      
-      <a href="/post/getting-started/" >
-        <img src="/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_150x0_resize_q75_h2_lanczos.webp" height="84" width="150"
-            alt="Welcome to Wowchemy, the website builder for Hugo" loading="lazy">
-      </a>
-    
-  </div>
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2309.08007.pdf" target="_blank" rel="noopener">
+    PDF</a>
+
+
 </div>
 
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
 
   
+</div>
 
 
-<div class="media stream-item view-compact">
-  <div class="media-body">
 
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/writing-technical-content/" >Writing technical content in Markdown</a>
-    </div>
+  <div class="article-container">
 
     
-    <a href="/post/writing-technical-content/"  class="summary-link">
-      <div class="article-style">
-        Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.
-Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.
+    <h3>Abstract</h3>
+    <p class="pub-abstract">End-to-end speech translation (ST) for conversation recordings involves several under-explored challenges such as speaker diarization (SD) without accurate word time stamps and handling of overlapping speech in a streaming fashion. In this work, we propose DiariST, the first streaming ST and SD solution. It is built upon a neural transducer-based streaming ST system and integrates token-level serialized output training and t-vector, which were originally developed for multi-talker speech recognition. Due to the absence of evaluation benchmarks in this area, we develop a new evaluation dataset, DiariST-AliMeeting, by translating the reference Chinese transcriptions of the AliMeeting corpus into English. We also propose new metrics, called speaker-agnostic BLEU and speaker-attributed BLEU, to measure the ST quality while taking SD accuracy into account. Our system achieves a strong ST and SD capability compared to offline systems based on Whisper, while performing streaming inference for overlapping speech. To facilitate the research in this new direction, we release the evaluation data, the offline baseline systems, and the evaluation code.</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+          </div>
+        </div>
       </div>
-    </a>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
-    <div class="stream-meta article-metadata">
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">ICASSP 2024</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/paper/">paper</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
       
-
+      
       
         
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2FMu-Y.github.io%2Fpublication%2Fdiarist%2F&amp;text=DiariST%3A&#43;Streaming&#43;Speech&#43;Translation&#43;with&#43;Speaker&#43;Diarization" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
     
       
-    
-    Jul 12, 2019
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    6 min read
-  </span>
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
       
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-      
-      <a href="/post/writing-technical-content/" >
-        <img src="/post/writing-technical-content/featured_huc72159e0fc0d14b85f60d34436a630f0_266353_150x0_resize_q75_h2_lanczos.webp" height="100" width="150"
-            alt="Writing technical content in Markdown" loading="lazy">
-      </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/jupyter/" >Display Jupyter Notebooks with Academic</a>
-    </div>
-
-    
-    <a href="/post/jupyter/"  class="summary-link">
-      <div class="article-style">
-        Learn how to blog in Academic using Jupyter notebooks
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
       
         
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span class="author-highlighted">
-      Mu Yang</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2FMu-Y.github.io%2Fpublication%2Fdiarist%2F&amp;t=DiariST%3A&#43;Streaming&#43;Speech&#43;Translation&#43;with&#43;Speaker&#43;Diarization" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
     
       
-          Last updated on
       
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=DiariST%3A%20Streaming%20Speech%20Translation%20with%20Speaker%20Diarization&amp;body=https%3A%2F%2FMu-Y.github.io%2Fpublication%2Fdiarist%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
     
-    Sep 5, 2019
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    2 min read
-  </span>
-  
-
-  
-  
-  
-  
-
-  
-  
-
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2FMu-Y.github.io%2Fpublication%2Fdiarist%2F&amp;title=DiariST%3A&#43;Streaming&#43;Speech&#43;Translation&#43;with&#43;Speaker&#43;Diarization" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=DiariST%3A&#43;Streaming&#43;Speech&#43;Translation&#43;with&#43;Speaker&#43;Diarization%20https%3A%2F%2FMu-Y.github.io%2Fpublication%2Fdiarist%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2FMu-Y.github.io%2Fpublication%2Fdiarist%2F&amp;title=DiariST%3A&#43;Streaming&#43;Speech&#43;Translation&#43;with&#43;Speaker&#43;Diarization" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
 </div>
 
-      
-    </div>
 
+
+
+
+
+
+
+
+
+
+  
+  
     
 
-  </div>
-  <div class="ml-3">
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://Mu-Y.github.io"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu768ca9a6b506ebb70aadf6b2360d52d3_170753_270x270_fill_q75_lanczos_center.JPG" alt="Mu Yang"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://Mu-Y.github.io">Mu Yang</a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
     
     
       
-      <a href="/post/jupyter/" >
-        <img src="/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_150x0_resize_q75_h2_lanczos_3.webp" height="65" width="150"
-            alt="Display Jupyter Notebooks with Academic" loading="lazy">
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:mu.yang@utdallas.edu" >
+        <i class="fas fa-envelope"></i>
       </a>
+    </li>
+  
     
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/MuYang55" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=vNINDR4AAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/Mu-Y" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/mu-yang-1678a3131/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
   </div>
-</div>
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
 
   
 
-  
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
 </div>
   </div>
 

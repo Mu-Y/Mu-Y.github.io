@@ -33,6 +33,14 @@
     </item>
     
     <item>
+      <title>DiariST: Streaming Speech Translation with Speaker Diarization</title>
+      <link>https://Mu-Y.github.io/publication/diarist/</link>
+      <pubDate>Sat, 13 Apr 2024 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/diarist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>What Can an Accent Identifier Learn? Probing Phonetic and Prosodic Information in a Wav2vec2-based Accent Identification Model</title>
       <link>https://Mu-Y.github.io/publication/aid_probe/</link>
       <pubDate>Tue, 13 Jun 2023 16:56:26 -0700</pubDate>
@@ -342,7 +350,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-285769143&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-689542731&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -352,7 +360,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-285769143&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-689542731&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
