@@ -33,6 +33,14 @@
     </item>
     
     <item>
+      <title>Audiobox TTA-RAG: Improving Zero-Shot and Few-Shot Text-To-Audio with Retrieval-Augmented Generation</title>
+      <link>https://Mu-Y.github.io/publication/tta-tag/</link>
+      <pubDate>Tue, 12 Nov 2024 16:56:26 -0700</pubDate>
+      <guid>https://Mu-Y.github.io/publication/tta-tag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>DiariST: Streaming Speech Translation with Speaker Diarization</title>
       <link>https://Mu-Y.github.io/publication/diarist/</link>
       <pubDate>Sat, 13 Apr 2024 16:56:26 -0700</pubDate>
@@ -350,7 +358,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-689542731&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-465971823&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -360,7 +368,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-689542731&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-465971823&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
